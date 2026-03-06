@@ -1,0 +1,17 @@
+L=[1,2,3,4,5,6,7,8,9]
+
+L.append(10)
+print(L)
+L.pop()
+print(L)
+L.pop(0)
+print(L)
+L.insert(0,11)
+print(L)
+L.sort()
+print(L)
+L.remove(4)
+print(L)
+L.append(11)
+print(L)
+print(L.count(11))
